@@ -1,0 +1,84 @@
+.form-container {
+  max-width: 400px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: transparent;
+  border-radius: 10px;
+  border: 3px solid #fcfc1e;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+#name {
+  background-color: transparent;
+}
+
+#message {
+  background-color: transparent;
+}
+
+#email {
+  background-color: transparent;
+}
+.topic {
+  color: #fcfc1e;
+}
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #fcfc1e;
+}
+
+.form-group {
+  margin-bottom: 1.2rem;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid #fcfc1e;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #fcfc1e;
+  outline: none;
+}
+
+form {
+  width: 95%;
+}
+
+button {
+  width: 100%;
+  padding: 0.9rem;
+  font-size: 1rem;
+  background-color: #0a5fba;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #003a79;
+}
+
+.error {
+  color: red;
+  font-size: 0.9rem;
+  margin-top: 0.3rem;
+}
+
+.success {
+  color: green;
+  margin-top: 1rem;
+  text-align: center;
+}
